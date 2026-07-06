@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Piyush | Portfolio - Computer Science & AI/ML Student</title>
+  <meta name="description"
+    content="Portfolio of Piyush, an undergraduate Computer Science and Engineering student specializing in AI & ML. Check out projects, skills, and experience.">
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+  <!-- Background Interactive Canvas -->
+  <canvas id="bgCanvas" class="bg-canvas"></canvas>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">Portfolio</a>
+
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#certifications" class="nav-link">Certifications</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+      <div class="hero-content reveal">
+        <h1 class="hero-title">Hi, I'm Piyush</h1>
+        <p class="hero-bio">
+          I am an undergraduate Computer Science and Engineering student specializing in Artificial Intelligence and
+          Machine Learning [AI & ML]. I have a deep passion for building intelligent systems, ranging from full-stack
+          web applications to deep learning workflows.
+        </p>
+        <div class="hero-ctas">
+          <a href="#contact" class="btn btn-primary">Contact Me</a>
+          <a href="resume/Piyush_Resume.pdf" target="_blank" class="btn btn-secondary">Download Resume</a>
+        </div>
+      </div>
+      <div class="hero-image-container reveal" style="transition-delay: 0.15s;">
+        <div class="hero-image-wrapper">
+          <img src="assets/piyush.jpg" alt="Piyush Profile Photo" class="hero-image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">01 / About Me</span>
+        <h2 class="section-title">Bridging Code, Hardware & Intelligence</h2>
+      </div>
+      <div class="about-grid reveal">
+        <div class="about-highlight">
+          "My academic and personal projects focus on bridging the gap between hardware data, web interfaces, and
+          machine learning models to solve real-world problems."
+        </div>
+        <div class="about-text">
+          <p>
+            As a Computer Science & Engineering student, I enjoy exploring how AI/ML models interact with the digital
+            and physical worlds. I design and build end-to-end applications that collect data, analyze it using deep
+            learning techniques, and display actionable insights through clean web interfaces.
+          </p>
+          <p>
+            Whether it is developing LLM workflows to streamline educational resources, constructing full-stack tracking
+            applications, or automating test scripts for code stability, I am driven by the search for simple, elegant,
+            and efficient solutions.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technical Skills Section -->
+  <section class="section section-alternate" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">02 / Technical Skills</span>
+        <h2 class="section-title">My Technical Toolbox</h2>
+      </div>
+      <div class="skills-grid reveal">
+
+        <!-- Core & Frameworks -->
+        <div class="skill-card">
+          <h3 class="skill-card-title">
+            <span class="icon"><i data-lucide="code-2"></i></span>
+            Core & Languages
+          </h3>
+          <div class="skills-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">C</span>
+            <span class="skill-tag">PHP</span>
+            <span class="skill-tag">SQL</span>
+          </div>
+        </div>
+
+        <!-- AI & ML -->
+        <div class="skill-card">
+          <h3 class="skill-card-title">
+            <span class="icon"><i data-lucide="brain-circuit"></i></span>
+            Artificial Intelligence
+          </h3>
+          <div class="skills-tags">
+            <span class="skill-tag">Deep Learning</span>
+            <span class="skill-tag">TensorFlow</span>
+            <span class="skill-tag">Keras</span>
+            <span class="skill-tag">PyTorch</span>
+            <span class="skill-tag">CNNs</span>
+            <span class="skill-tag">Transformers</span>
+            <span class="skill-tag">LLM Workflows</span>
+          </div>
+        </div>
+
+        <!-- Web Dev & Databases -->
+        <div class="skill-card">
+          <h3 class="skill-card-title">
+            <span class="icon"><i data-lucide="layout"></i></span>
+            Web Dev & Databases
+          </h3>
+          <div class="skills-tags">
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">Bootstrap</span>
+            <span class="skill-tag">PHP/MySQL Integration</span>
+            <span class="skill-tag">Oracle Database</span>
+          </div>
+        </div>
+
+        <!-- Hardware & Testing -->
+        <div class="skill-card">
+          <h3 class="skill-card-title">
+            <span class="icon"><i data-lucide="cpu"></i></span>
+            Hardware & Testing
+          </h3>
+          <div class="skills-tags">
+            <span class="skill-tag">Software Testing</span>
+            <span class="skill-tag">Automation</span>
+            <span class="skill-tag">Pytest</span>
+            <span class="skill-tag">Hardware Data Integration</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Key Projects Section -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">03 / Key Projects</span>
+        <h2 class="section-title">Selected Creations</h2>
+      </div>
+      <div class="projects-grid reveal">
+
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div class="project-visual">
+            <div class="project-art">
+              <div style="display: flex; gap: 8px; align-items: center;">
+                <span style="width: 8px; height: 8px; border-radius: 50%; background-color: #ef4444;"></span>
+                <span style="width: 8px; height: 8px; border-radius: 50%; background-color: #eab308;"></span>
+                <span style="width: 8px; height: 8px; border-radius: 50%; background-color: #22c55e;"></span>
+              </div>
+              <div style="margin: 0.5rem 0; font-weight: 700; font-size: 0.85rem; color: var(--text-primary);">
+                Attendance Logs
+              </div>
+              <div style="display: flex; flex-direction: column; gap: 4px;">
+                <div style="height: 6px; background-color: var(--border-color); width: 90%; border-radius: 3px;"></div>
+                <div style="height: 6px; background-color: var(--border-color); width: 75%; border-radius: 3px;"></div>
+                <div style="height: 6px; background-color: var(--border-color); width: 85%; border-radius: 3px;"></div>
+              </div>
+              <div
+                style="font-size: 0.7rem; color: var(--accent); font-weight: bold; border-top: 1px solid var(--border-color); padding-top: 0.4rem; margin-top: auto; display: flex; justify-content: space-between;">
+                <span>Total: 96%</span>
+                <span>Active</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Web Attendance Management</h3>
+            <p class="project-description">
+              A clean, full-stack web application built to manage and track attendance metrics efficiently for academic
+              cohorts.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">Bootstrap</span>
+              <span class="project-tag">PHP</span>
+              <span class="project-tag">MySQL</span>
+            </div>
+            <a href="https://github.com/Piyush7251/attendamce-management-system" target="_blank" rel="noopener noreferrer" class="project-link">
+              View Project Case <i data-lucide="arrow-up-right" style="width: 16px; height: 16px;"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <div class="project-visual">
+            <div class="project-art">
+              <div style="font-weight: bold; color: var(--text-primary); font-size: 0.85rem; display: flex; align-items: center; gap: 8px;">
+                <i data-lucide="cloud" style="color: var(--accent); width: 20px; height: 20px;"></i>
+                <span>ADK Expense Agent</span>
+              </div>
+              <div style="margin: 0.8rem 0; background-color: var(--bg-cream-dark); border-radius: 6px; padding: 0.5rem; display: flex; flex-direction: column; gap: 4px; font-family: monospace; font-size: 0.7rem;">
+                <div style="display: flex; justify-content: space-between;">
+                  <span style="color: var(--text-muted);">Spend Limit:</span>
+                  <span style="font-weight: bold;">$500.00</span>
+                </div>
+                <div style="display: flex; justify-content: space-between;">
+                  <span style="color: var(--text-muted);">Current Cost:</span>
+                  <span style="color: #059669; font-weight: bold;">$142.50</span>
+                </div>
+              </div>
+              <div style="font-size: 0.7rem; color: var(--text-muted); display: flex; align-items: center; gap: 4px; border-top: 1px solid var(--border-color); padding-top: 0.5rem; margin-top: auto;">
+                <span style="display: inline-block; width: 6px; height: 6px; border-radius: 50%; background-color: #22c55e;"></span>
+                <span>Agent Active (MCP Online)</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Ambient Cloud Expense Agent</h3>
+            <p class="project-description">
+              An autonomous agent built using the Google Agent Development Kit (ADK) that tracks cloud infrastructure metrics, enforces budget constraints using corporate context provided via Model Context Protocol (MCP), validates startup parameters for security, gates optimization actions using Human-in-the-Loop (HITL) authorization, and alerts the team via Slack notifications.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Google ADK</span>
+              <span class="project-tag">MCP</span>
+              <span class="project-tag">HITL</span>
+              <span class="project-tag">Python</span>
+              <span class="project-tag">Slack API</span>
+            </div>
+            <a href="https://github.com/Piyush7251/enterprise-cloud-finops-agent" target="_blank" rel="noopener noreferrer" class="project-link">
+              View Project Case <i data-lucide="arrow-up-right" style="width: 16px; height: 16px;"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section class="section section-alternate" id="certifications">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">04 / Certifications</span>
+        <h2 class="section-title">Verified Credentials</h2>
+      </div>
+      <div class="certifications-grid reveal">
+        
+        <!-- Certificate 1: IBM Machine Learning & Deep Learning -->
+        <div class="cert-card">
+          <div class="cert-header-gradient" style="background: linear-gradient(135deg, #0f172a 0%, #1e40af 100%);">
+            <i data-lucide="brain-circuit" class="cert-icon-vector"></i>
+            <span class="cert-badge">IBM Specialization</span>
+          </div>
+          <div class="cert-info">
+            <span class="cert-issuer">IBM / Coursera</span>
+            <h3 class="cert-name">Machine Learning & Deep Learning</h3>
+            <p class="cert-desc">Comprehensive professional credential comprising 13 courses on advanced neural network architectures, CNNs, PyTorch, Keras, transformers, and model architecture engineering.</p>
+            <a href="cer/corseera ai ml/final/Coursera WOR8SDH2BWMX.pdf" target="_blank" class="cert-action-link">
+              View Specialization PDF <i data-lucide="arrow-up-right" style="width: 16px; height: 16px;"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Certificate 2: Google AI Specialist -->
+        <div class="cert-card">
+          <div class="cert-header-gradient" style="background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);">
+            <i data-lucide="cloud" class="cert-icon-vector"></i>
+            <span class="cert-badge">Google AI Specialist</span>
+          </div>
+          <div class="cert-info">
+            <span class="cert-issuer">Google / Coursera</span>
+            <h3 class="cert-name">Google AI Specialist Certificate</h3>
+            <p class="cert-desc">7-course professional credential validating skills in deep learning, TensorFlow, Keras, neural networks, and model deployment on GCP.</p>
+            <a href="cer/Google AI/final/Coursera 8RDNL0BIE27F.pdf" target="_blank" class="cert-action-link">
+              View Specialization PDF <i data-lucide="arrow-up-right" style="width: 16px; height: 16px;"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Certificate 3: AWS Solutions Architecture -->
+        <div class="cert-card">
+          <div class="cert-header-gradient" style="background: linear-gradient(135deg, #232f3e 0%, #ff9900 100%);">
+            <i data-lucide="server" class="cert-icon-vector"></i>
+            <span class="cert-badge">AWS Forage</span>
+          </div>
+          <div class="cert-info">
+            <span class="cert-issuer">AWS / Forage</span>
+            <h3 class="cert-name">Solutions Architecture Job Simulation</h3>
+            <p class="cert-desc">Completed hands-on software tasks in designing a simple, scalable, hosting architecture, simulating real-world Solutions Architect deliverables.</p>
+            <a href="cer/aws-solutions-architecture.pdf" target="_blank" class="cert-action-link">
+              View Certificate PDF <i data-lucide="arrow-up-right" style="width: 16px; height: 16px;"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Certificate 4: TATA GenAI Data Analytics -->
+        <div class="cert-card">
+          <div class="cert-header-gradient" style="background: linear-gradient(135deg, #002d62 0%, #005a9c 100%);">
+            <i data-lucide="line-chart" class="cert-icon-vector"></i>
+            <span class="cert-badge">TATA Forage</span>
+          </div>
+          <div class="cert-info">
+            <span class="cert-issuer">TATA / Forage</span>
+            <h3 class="cert-name">GenAI Data Analytics Job Simulation</h3>
+            <p class="cert-desc">Validated skills in exploratory data analysis, risk profiling, AI-driven delinquency forecasting, collections strategies, and data storytelling.</p>
+            <a href="cer/tata-data-analytics.pdf" target="_blank" class="cert-action-link">
+              View Certificate PDF <i data-lucide="arrow-up-right" style="width: 16px; height: 16px;"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Certificate 5: GeeksforGeeks Mastering Generative AI -->
+        <div class="cert-card">
+          <div class="cert-header-gradient" style="background: linear-gradient(135deg, #006b2b 0%, #0f9f47 100%);">
+            <i data-lucide="message-square" class="cert-icon-vector"></i>
+            <span class="cert-badge">GeeksforGeeks Course</span>
+          </div>
+          <div class="cert-info">
+            <span class="cert-issuer">GeeksforGeeks</span>
+            <h3 class="cert-name">Mastering Generative AI & ChatGPT</h3>
+            <p class="cert-desc">Rigorous 5-week course completing comprehensive exercises in prompt engineering, LLMs, fine-tuning, and application integrations.</p>
+            <a href="cer/geeks-generative-ai.pdf" target="_blank" class="cert-action-link">
+              View Certificate PDF <i data-lucide="arrow-up-right" style="width: 16px; height: 16px;"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Certificate 6: Deloitte Job Simulation -->
+        <div class="cert-card">
+          <div class="cert-header-gradient" style="background: linear-gradient(135deg, #111827 0%, #00a82d 100%);">
+            <i data-lucide="briefcase" class="cert-icon-vector"></i>
+            <span class="cert-badge">Deloitte Forage</span>
+          </div>
+          <div class="cert-info">
+            <span class="cert-issuer">Deloitte / Forage</span>
+            <h3 class="cert-name">Technology Job Simulation</h3>
+            <p class="cert-desc">Completed hands-on software tasks in coding and deployment, simulating real-world consultant engineering deliverables for Deloitte clients.</p>
+            <a href="cer/udmxiyHeqYQLkTPvf_9PBTqmSxAf6zZTseP_691e80e2a6f908a8cdc74f8b_1782921800987_completion_certificate (1).pdf" target="_blank" class="cert-action-link">
+              View Certificate PDF <i data-lucide="arrow-up-right" style="width: 16px; height: 16px;"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Toggle & Expandable Additional Credentials Table -->
+      <div class="certs-toggle-container reveal">
+        <button id="toggleCertsBtn" class="btn btn-outline">
+          Show 20+ Additional Course Credentials <i data-lucide="chevron-down" style="width: 16px; height: 16px; margin-left: 6px; vertical-align: middle;"></i>
+        </button>
+      </div>
+
+      <div id="certsDrawer" class="certs-drawer">
+        <div class="certs-table-wrapper">
+          <table class="certs-table">
+            <thead>
+              <tr>
+                <th>Certification / Course Title</th>
+                <th>Issuer</th>
+                <th>Path / Code</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>AWS Solutions Architecture Job Simulation</td>
+                <td>AWS & Forage</td>
+                <td>Architecting scalability</td>
+                <td><a href="cer/aws-solutions-architecture.pdf" target="_blank" class="cert-table-link">Open PDF <i data-lucide="arrow-up-right" style="width: 14px; height: 14px;"></i></a></td>
+              </tr>
+              <tr>
+                <td>GenAI Powered Data Analytics Job Simulation</td>
+                <td>Tata & Forage</td>
+                <td>Exploratory analytics</td>
+                <td><a href="cer/tata-data-analytics.pdf" target="_blank" class="cert-table-link">Open PDF <i data-lucide="arrow-up-right" style="width: 14px; height: 14px;"></i></a></td>
+              </tr>
+              <tr>
+                <td>Mastering Generative AI and ChatGPT</td>
+                <td>GeeksforGeeks</td>
+                <td>Prompt Engineering & LLMs</td>
+                <td><a href="cer/geeks-generative-ai.pdf" target="_blank" class="cert-table-link">Open PDF <i data-lucide="arrow-up-right" style="width: 14px; height: 14px;"></i></a></td>
+              </tr>
+              <tr>
+                <td>GitHub Workflow Mastery</td>
+                <td>Unstop</td>
+                <td>Git Branching & Actions</td>
+                <td><a href="cer/e6919822-2ed7-412b-9c2e-f791695cff62.pdf" target="_blank" class="cert-table-link">Open PDF <i data-lucide="arrow-up-right" style="width: 14px; height: 14px;"></i></a></td>
+              </tr>
+              <tr>
+                <td>Microsoft Skill Competency (Unlock AI)</td>
+                <td>Microsoft & NCVET</td>
+                <td>2026021807076700</td>
+                <td><a href="cer/Unlock ai for everyone (beginner)  microsoft/certificate_658a7e4d-dadd-4922-8f22-9593b904f690.pdf" target="_blank" class="cert-table-link">Open PDF <i data-lucide="arrow-up-right" style="width: 14px; height: 14px;"></i></a></td>
+              </tr>
+              <tr>
+                <td>Yuva AI for All</td>
+                <td>Nasscom / MeitY</td>
+                <td>Digital Skilling Initiative</td>
+                <td><a href="cer/Google AI/Piyush_Bhatt_116392.pdf" target="_blank" class="cert-table-link">Open PDF <i data-lucide="arrow-up-right" style="width: 14px; height: 14px;"></i></a></td>
+              </tr>
+              <tr>
+                <td>Git Training</td>
+                <td>Unstop</td>
+                <td>Code: 10073201</td>
+                <td><a href="cer/10073201_10344575_1775653615706.pdf" target="_blank" class="cert-table-link">Open PDF <i data-lucide="arrow-up-right" style="width: 14px; height: 14px;"></i></a></td>
+              </tr>
+              <tr>
+                <td>Introduction to PHP</td>
+                <td>Unstop</td>
+                <td>Code: 10404758</td>
+                <td><a href="cer/10404758_10344575_1782663465602.pdf" target="_blank" class="cert-table-link">Open PDF <i data-lucide="arrow-up-right" style="width: 14px; height: 14px;"></i></a></td>
+              </tr>
+              <tr>
+                <td>Generative AI Language Modeling with Transformers</td>
+                <td>IBM (Coursera)</td>
+                <td>1V4SLIFE9IKA</td>
+                <td><a href="cer/corseera ai ml/Coursera 1V4SLIFE9IKA.pdf" target="_blank" class="cert-table-link">Open PDF <i data-lucide="arrow-up-right" style="width: 14px; height: 14px;"></i></a></td>
+              </tr>
+              <tr>
+                <td>Introduction to Deep Learning & Neural Networks with Keras</td>
+                <td>IBM (Coursera)</td>
+                <td>2OSABLXPRHZR</td>
+                <td><a href="cer/corseera ai ml/Coursera 2OSABLXPRHZR.pdf" target="_blank" class="cert-table-link">Open PDF <i data-lucide="arrow-up-right" style="width: 14px; height: 14px;"></i></a></td>
+              </tr>
+              <tr>
+                <td>Gen AI Foundational Models for NLP & Language Understanding</td>
+                <td>IBM (Coursera)</td>
+                <td>3WC63DS8XZT0</td>
+                <td><a href="cer/corseera ai ml/Coursera 3WC63DS8XZT0.pdf" target="_blank" class="cert-table-link">Open PDF <i data-lucide="arrow-up-right" style="width: 14px; height: 14px;"></i></a></td>
+              </tr>
+              <tr>
+                <td>Generative AI Advance Fine-Tuning for LLMs</td>
+                <td>IBM (Coursera)</td>
+                <td>8UK3LCRQSZ9V</td>
+                <td><a href="cer/corseera ai ml/Coursera 8UK3LCRQSZ9V.pdf" target="_blank" class="cert-table-link">Open PDF <i data-lucide="arrow-up-right" style="width: 14px; height: 14px;"></i></a></td>
+              </tr>
+              <tr>
+                <td>Fundamentals of AI Agents Using RAG and LangChain</td>
+                <td>IBM (Coursera)</td>
+                <td>CSO7WQ4NRHVN</td>
+                <td><a href="cer/corseera ai ml/Coursera CSO7WQ4NRHVN.pdf" target="_blank" class="cert-table-link">Open PDF <i data-lucide="arrow-up-right" style="width: 14px; height: 14px;"></i></a></td>
+              </tr>
+              <tr>
+                <td>Project: Generative AI Applications with RAG and LangChain</td>
+                <td>IBM (Coursera)</td>
+                <td>CSZ55VIFPZLO</td>
+                <td><a href="cer/corseera ai ml/Coursera CSZ55VIFPZLO.pdf" target="_blank" class="cert-table-link">Open PDF <i data-lucide="arrow-up-right" style="width: 14px; height: 14px;"></i></a></td>
+              </tr>
+              <tr>
+                <td>AI Capstone Project with Deep Learning</td>
+                <td>IBM (Coursera)</td>
+                <td>EYNPKBE5U474</td>
+                <td><a href="cer/corseera ai ml/Coursera EYNPKBE5U474.pdf" target="_blank" class="cert-table-link">Open PDF <i data-lucide="arrow-up-right" style="width: 14px; height: 14px;"></i></a></td>
+              </tr>
+              <tr>
+                <td>Deep Learning with PyTorch</td>
+                <td>IBM (Coursera)</td>
+                <td>G97MTXZ3NFWQ</td>
+                <td><a href="cer/corseera ai ml/Coursera G97MTXZ3NFWQ.pdf" target="_blank" class="cert-table-link">Open PDF <i data-lucide="arrow-up-right" style="width: 14px; height: 14px;"></i></a></td>
+              </tr>
+              <tr>
+                <td>Generative AI Engineering and Fine-Tuning Transformers</td>
+                <td>IBM (Coursera)</td>
+                <td>I5PHNG962886</td>
+                <td><a href="cer/corseera ai ml/Coursera I5PHNG962886.pdf" target="_blank" class="cert-table-link">Open PDF <i data-lucide="arrow-up-right" style="width: 14px; height: 14px;"></i></a></td>
+              </tr>
+              <tr>
+                <td>Introduction to Neural Networks and PyTorch</td>
+                <td>IBM (Coursera)</td>
+                <td>IO7VU5RXXP4R</td>
+                <td><a href="cer/corseera ai ml/Coursera IO7VU5RXXP4R.pdf" target="_blank" class="cert-table-link">Open PDF <i data-lucide="arrow-up-right" style="width: 14px; height: 14px;"></i></a></td>
+              </tr>
+              <tr>
+                <td>Machine Learning with Python</td>
+                <td>IBM (Coursera)</td>
+                <td>LUAS33WO5UPD</td>
+                <td><a href="cer/corseera ai ml/Coursera LUAS33WO5UPD.pdf" target="_blank" class="cert-table-link">Open PDF <i data-lucide="arrow-up-right" style="width: 14px; height: 14px;"></i></a></td>
+              </tr>
+              <tr>
+                <td>Deep Learning with Keras and Tensorflow</td>
+                <td>IBM (Coursera)</td>
+                <td>MP65P090K7JU</td>
+                <td><a href="cer/corseera ai ml/Coursera MP65P090K7JU.pdf" target="_blank" class="cert-table-link">Open PDF <i data-lucide="arrow-up-right" style="width: 14px; height: 14px;"></i></a></td>
+              </tr>
+              <tr>
+                <td>Generative AI and LLMs: Architecture and Data Preparation</td>
+                <td>IBM (Coursera)</td>
+                <td>PHB6Z1LCE4XZ</td>
+                <td><a href="cer/corseera ai ml/Coursera PHB6Z1LCE4XZ.pdf" target="_blank" class="cert-table-link">Open PDF <i data-lucide="arrow-up-right" style="width: 14px; height: 14px;"></i></a></td>
+              </tr>
+              <tr>
+                <td>Google AI Fundamentals</td>
+                <td>Google (Coursera)</td>
+                <td>VL0W1VHPNV20</td>
+                <td><a href="cer/Google AI/Coursera VL0W1VHPNV20.pdf" target="_blank" class="cert-table-link">Open PDF <i data-lucide="arrow-up-right" style="width: 14px; height: 14px;"></i></a></td>
+              </tr>
+              <tr>
+                <td>Google AI for App Building</td>
+                <td>Google (Coursera)</td>
+                <td>0GJT9P2Y5EEG</td>
+                <td><a href="cer/Google AI/Coursera 0GJT9P2Y5EEG.pdf" target="_blank" class="cert-table-link">Open PDF <i data-lucide="arrow-up-right" style="width: 14px; height: 14px;"></i></a></td>
+              </tr>
+              <tr>
+                <td>Google AI for Research and Insights</td>
+                <td>Google (Coursera)</td>
+                <td>4498MG72KZ9G</td>
+                <td><a href="cer/Google AI/Coursera 4498MG72KZ9G.pdf" target="_blank" class="cert-table-link">Open PDF <i data-lucide="arrow-up-right" style="width: 14px; height: 14px;"></i></a></td>
+              </tr>
+              <tr>
+                <td>Google AI for Brainstorming and Planning</td>
+                <td>Google (Coursera)</td>
+                <td>7ODO5Q9GPRX5</td>
+                <td><a href="cer/Google AI/Coursera 7ODO5Q9GPRX5.pdf" target="_blank" class="cert-table-link">Open PDF <i data-lucide="arrow-up-right" style="width: 14px; height: 14px;"></i></a></td>
+              </tr>
+              <tr>
+                <td>Google AI for Data Analysis</td>
+                <td>Google (Coursera)</td>
+                <td>I5LRS2GU0XAX</td>
+                <td><a href="cer/Google AI/Coursera I5LRS2GU0XAX.pdf" target="_blank" class="cert-table-link">Open PDF <i data-lucide="arrow-up-right" style="width: 14px; height: 14px;"></i></a></td>
+              </tr>
+              <tr>
+                <td>Google AI for Content Creation</td>
+                <td>Google (Coursera)</td>
+                <td>OZCEW0LEYZSR</td>
+                <td><a href="cer/Google AI/Coursera OZCEW0LEYZSR.pdf" target="_blank" class="cert-table-link">Open PDF <i data-lucide="arrow-up-right" style="width: 14px; height: 14px;"></i></a></td>
+              </tr>
+              <tr>
+                <td>Google AI for Writing and Communicating</td>
+                <td>Google (Coursera)</td>
+                <td>PBUCULU2NKEA</td>
+                <td><a href="cer/Google AI/Coursera PBUCULU2NKEA.pdf" target="_blank" class="cert-table-link">Open PDF <i data-lucide="arrow-up-right" style="width: 14px; height: 14px;"></i></a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Leadership & Experience Section -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">05 / Leadership & Experience</span>
+        <h2 class="section-title">Leadership & Activities</h2>
+      </div>
+
+      <div class="timeline reveal">
+
+        <!-- Experience Item -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-date">Lead Organizer</div>
+            <h3 class="timeline-title">Google Gemini Seminar Lead</h3>
+            <div class="timeline-subtitle">Academic Community Initiative</div>
+            <p class="timeline-desc">
+              Organised and conducted an interactive technical seminar on Google Gemini AI models for a large group of
+              60+ student peers, demonstrating public speaking, developer engagement, and technical leadership skills.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section section-alternate" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">06 / Contact</span>
+        <h2 class="section-title">Let's Create Together</h2>
+      </div>
+
+      <div class="contact-grid reveal">
+
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <p style="font-size: 1.1rem; color: var(--text-secondary); max-width: 400px;">
+            Whether you want to discuss AI models, full-stack applications, or just say hello, my inbox is open.
+          </p>
+
+          <div class="contact-details">
+            <div class="contact-method">
+              <div class="contact-icon"><i data-lucide="mail"></i></div>
+              <div>
+                <div class="contact-method-title">Email</div>
+                <div class="contact-method-value"><a
+                    href="mailto:piyushbhatt7251@gmail.com">piyushbhatt7251@gmail.com</a></div>
+              </div>
+            </div>
+
+            <div class="contact-method">
+              <div class="contact-icon"><i data-lucide="map-pin"></i></div>
+              <div>
+                <div class="contact-method-title">Location</div>
+                <div class="contact-method-value">India</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <a href="https://github.com/Piyush7251" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" />
+                <path d="M9 18c-4.51 2-5-2-7-2" />
+              </svg></a>
+            <a href="https://www.linkedin.com/in/piyush-bhatt-3693a3357/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                <rect x="2" y="9" width="4" height="12" />
+                <circle cx="4" cy="4" r="2" />
+              </svg></a>
+            <a href="#" class="social-link" aria-label="Twitter"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
+              </svg></a>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="name" class="form-label">Full Name</label>
+            <input type="text" id="name" class="form-input" placeholder="Your name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email" class="form-label">Email Address</label>
+            <input type="email" id="email" class="form-input" placeholder="yourname@example.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="message" class="form-label">Your Message</label>
+            <textarea id="message" class="form-textarea" placeholder="Hi, let's connect..." required></textarea>
+          </div>
+
+          <button type="submit" class="form-submit">
+            Send Message <i data-lucide="send" style="width: 16px; height: 16px;"></i>
+          </button>
+
+          <div class="form-status" id="formStatus"></div>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Piyush.</p>
+    </div>
+  </footer>
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <!-- Main Script -->
+  <script src="js/main.js"></script>
+  <script>
+    // Initialize Lucide Icons after scripts load
+    document.addEventListener('DOMContentLoaded', () => {
+      if (window.lucide) {
+        window.lucide.createIcons();
+      }
+    });
+  </script>
+</body>
+
+</html>
