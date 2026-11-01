@@ -312,7 +312,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const isExpanded = certsDrawer.classList.contains('expanded');
       toggleBtn.innerHTML = isExpanded 
         ? 'Hide Course Credentials <i data-lucide="chevron-up" style="width: 16px; height: 16px; margin-left: 6px; vertical-align: middle;"></i>' 
-        : 'Show 20+ Additional Course Credentials <i data-lucide="chevron-down" style="width: 16px; height: 16px; margin-left: 6px; vertical-align: middle;"></i>';
+        : 'Show All 25+ Course Credentials & Modules <i data-lucide="chevron-down" style="width: 16px; height: 16px; margin-left: 6px; vertical-align: middle;"></i>';
       // Re-trigger lucide icons
       if (window.lucide) {
         window.lucide.createIcons();
