@@ -174,7 +174,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Background Interactive Canvas Dash Grid (Mouse Tracking & Flow)
   const canvas = document.getElementById('bgCanvas');
-  if (canvas) {
+  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (canvas && !prefersReducedMotion) {
     const ctx = canvas.getContext('2d');
     let width = canvas.width = window.innerWidth;
     let height = canvas.height = window.innerHeight;

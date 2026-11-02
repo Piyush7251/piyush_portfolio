@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://piyush7251.github.io/piyush_portfolio/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://piyush7251.github.io/piyush_portfolio/assets/piyush.jpg</image:loc>
+      <image:title>Piyush Bhatt Portfolio - AI &amp; ML Engineer</image:title>
+      <image:caption>Piyush Bhatt, Computer Science and Engineering student specializing in AI &amp; ML</image:caption>
+    </image:image>
+  </url>
+</urlset>

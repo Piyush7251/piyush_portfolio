@@ -92,6 +92,10 @@ button, input, textarea {
   color: inherit;
 }
 
+.text-accent {
+  color: var(--accent);
+}
+
 /* Layout Utilities */
 .container {
   width: 100%;
@@ -1108,4 +1112,23 @@ button, input, textarea {
 
 ::-webkit-scrollbar-thumb:hover {
   background: var(--text-muted);
+}
+
+/* Accessibility: Reduced Motion for Core Web Vitals & SEO */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+  .bg-canvas {
+    display: none;
+  }
 }
