@@ -1,8 +1,8 @@
-# Contributing to Piyush Bhatt's Portfolio
+# Contributing to the Repository
 
-Thank you for your interest in contributing to this project! We welcome feedback, bug reports, feature suggestions, and pull requests to help improve the codebase.
+All contributions, bug reports, bug fixes, documentation improvements, enhancements, and ideas are welcome.
 
-The following guidelines explain how to contribute effectively and maintain project quality.
+Thank you for your interest in contributing! The following guidelines explain how to contribute effectively and maintain project quality.
 
 ---
 
@@ -14,28 +14,26 @@ This project and everyone participating in it is governed by the [Code of Conduc
 
 ## How Can I Contribute?
 
-### 1. Reporting Bugs
+### 1. Reporting Bugs & Bug Fixes
 
-Before creating a bug report, please check existing issues to ensure it hasn't already been addressed. When filing an issue, please include:
+Before creating a bug report or fix, please check existing issues to ensure it hasn't already been addressed. When filing an issue or submitting a bug fix, please include:
 * **Clear description**: Summary of the bug.
 * **Steps to reproduce**: Exact steps to encounter the problem.
 * **Expected vs. Actual behavior**: What should have happened vs. what actually happened.
 * **Screenshots / Logs**: Visual proof if applicable.
-* **Device / Browser info**: Operating system, browser name, and version.
 
-### 2. Suggesting Enhancements
+### 2. Documentation Improvements & Enhancements
 
-Feature requests and design enhancements are welcome! When opening an issue:
-* Explain the rationale and use case for the feature.
-* Describe how it fits the portfolio's aesthetics, performance, and functionality.
-* Provide mockups or code snippets if available.
+Documentation improvements, enhancements, and new feature suggestions are warmly encouraged:
+* Explain the rationale and use case for the improvement.
+* Provide clear examples, mockups, or code snippets where applicable.
 
 ### 3. Pull Requests
 
 1. **Fork the repository** on GitHub.
 2. **Clone your fork** locally:
    ```bash
-   git clone https://github.com/<your-username>/piyush_portfolio.git
+   git clone https://github.com/Piyush7251/piyush_portfolio.git
    cd piyush_portfolio
    ```
 3. **Create a descriptive feature branch**:
@@ -45,27 +43,15 @@ Feature requests and design enhancements are welcome! When opening an issue:
    git checkout -b fix/your-bug-fix
    ```
 4. **Make your changes** following the project standards.
-5. **Test locally**:
-   - Open `index.html` in multiple browsers (Chrome, Firefox, Safari/Edge) to verify responsiveness.
-   - Verify that all assets, links, and animations render properly.
-6. **Commit your changes** with clear, concise messages:
+5. **Commit your changes** with clear, concise messages:
    ```bash
    git commit -m "Add: description of your feature or fix"
    ```
-7. **Push to your fork**:
+6. **Push to your fork**:
    ```bash
    git push origin feature/your-feature-name
    ```
-8. **Open a Pull Request** against the `main` branch of this repository.
-
----
-
-## Coding Guidelines
-
-* **HTML**: Semantic HTML5 markup, accessible landmarks, and valid nesting.
-* **CSS**: Use established CSS variables from `css/index.css` for palette colors, fonts, and spacing. Ensure responsive design across mobile (<480px), tablet (<768px), and desktop.
-* **JavaScript**: Modern ES6+ vanilla JavaScript without unnecessary external dependencies.
-* **Assets**: Optimize images (JPEG/WebP/SVG) to keep page load times fast and preserve Core Web Vitals.
+7. **Open a Pull Request** against the `main` branch of this repository.
 
 ---
 

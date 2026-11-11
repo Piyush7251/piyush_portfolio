@@ -1,48 +1,45 @@
-# Piyush Bhatt — Personal Portfolio
+# Simple Interest Calculator
 
-Welcome to the personal developer portfolio repository for **Piyush Bhatt**, an undergraduate Computer Science and Engineering student specializing in **Artificial Intelligence and Machine Learning (AI & ML)**.
+A script that calculates simple interest given principal, annual rate of interest and time period in years.
 
-🔗 **Live Website**: [https://piyush7251.github.io/piyush_portfolio/](https://piyush7251.github.io/piyush_portfolio/)
+## Input:
+* **p**, principal amount
+* **t**, time period in years
+* **r**, annual rate of interest
+
+## Output:
+* **simple interest** = p*t*r
 
 ---
 
-## 🚀 Overview
+## Usage Instructions
 
-A high-performance, responsive personal portfolio showcasing technical projects, professional experience, verified industry credentials, and direct contact options.
+To run the simple interest calculator script in your terminal:
+```bash
+bash simple-interest.sh
+```
+Follow the interactive prompts to enter the principal amount, annual interest rate, and duration in years.
 
-### Key Highlights
-* **Zero Framework Bloat**: Pure vanilla HTML5, modern CSS3, and ES6+ JavaScript for instant load times and optimal Lighthouse scores.
+---
+
+## About This Repository
+
+This repository also hosts the personal developer portfolio for **Piyush Bhatt**, an undergraduate Computer Science and Engineering student specializing in **Artificial Intelligence and Machine Learning (AI & ML)**.
+
+🔗 **Live Portfolio Website**: [https://piyush7251.github.io/piyush_portfolio/](https://piyush7251.github.io/piyush_portfolio/)
+
+### Overview
 * **Interactive Canvas Background**: Hexagonal dash grid with real-time cursor physics and orientation math.
 * **Verified Credentials**: Direct local access and verification links for 25+ credentials across IBM, Google AI, Kaggle, Meta, Microsoft Learn, PayPal & Anthropic, AWS, Tata, and Deloitte.
 * **Work Experience & Leadership**: Featuring IT Developer Internship at Ruhanix Solutions and Google Gemini Seminar Lead at Amrapali University.
-* **Headless Contact Delivery**: Integrated background contact form using Web3Forms with automatic fallback to native email client drafts.
 
 ---
 
 ## 🛠️ Tech Stack
 
 * **Frontend**: Semantic HTML5, CSS3 Custom Properties (Design System), Vanilla JavaScript (ES6+)
-* **Icons**: [Lucide Icons](https://lucide.dev/) + Optimized Inline SVGs
-* **APIs & Integrations**: Web3Forms API, Microsoft Learn, GitHub, LinkedIn
-* **Typography**: Plus Jakarta Sans & Inter (Google Fonts)
-
----
-
-## 📂 Project Structure
-
-```plaintext
-piyush_portfolio/
-├── index.html                           # Main portfolio markup
-├── README.md                            # Repository documentation
-├── assets/                              # Profile imagery & branding assets
-├── cer/                                 # 25+ verified certificates & badges
-├── css/
-│   └── index.css                        # Complete CSS design system & responsiveness
-├── js/
-│   └── main.js                          # Canvas physics, intersection observers, form logic
-└── resume/
-    └── Piyush_Resume.pdf                # Downloadable resume
-```
+* **Scripting**: Bash Shell Scripting (`simple-interest.sh`)
+* **Licensing**: Apache License 2.0 (see [LICENSE](LICENSE))
 
 ---
 
