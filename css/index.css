@@ -1021,7 +1021,7 @@ button, input, textarea {
 }
 
 .certs-drawer.expanded {
-  max-height: 2600px;
+  max-height: 4500px;
   overflow: visible;
 }
 
